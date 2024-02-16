@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url("../public/poppins.woff") format(".woff");
+  src: local("Poppins"), url("../public/poppins.woff2") format(".woff2");
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between !important;
+}
+
+.background {
+  background: #f8f8f8;
+  height: 100vh;
+}
+
+.addForm,
+.editForm {
+  background-color: white;
+  width: 500px;
+  padding: 30px 20px 20px;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.ant-spin-container {
+  margin-top: 20px;
+}
+
+.ant-pagination {
+  justify-content: center !important;
+}
+
+.mainLink {
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+
+.mainLink h2:hover {
+  color: rgb(95, 95, 95);
+}
+.card {
+  margin-top: 50px;
+  min-width: 500px;
+}
+
+.card .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card .card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 3;
+}
+.card div input {
+  cursor: auto !important;
+  margin-left: 15px;
+  font-size: 16px;
+  gap: 5px;
+  background-color: #fcfcfc !important;
+  color: #333 !important;
+}
+
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 10px;
+}
